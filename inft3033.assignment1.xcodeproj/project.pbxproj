@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7E12E2F26E7A6E0003FA213 /* ConverterKilowatts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2926E7A6E0003FA213 /* ConverterKilowatts.swift */; };
+		A7E12E3026E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2A26E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift */; };
+		A7E12E3126E7A6E0003FA213 /* ConverterWatts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2B26E7A6E0003FA213 /* ConverterWatts.swift */; };
+		A7E12E3226E7A6E0003FA213 /* ConverterElectricalHorsepower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2C26E7A6E0003FA213 /* ConverterElectricalHorsepower.swift */; };
+		A7E12E3326E7A6E0003FA213 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2D26E7A6E0003FA213 /* Converter.swift */; };
+		A7E12E3426E7A6E0003FA213 /* ConverterMetricHorsepower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2E26E7A6E0003FA213 /* ConverterMetricHorsepower.swift */; };
+		A7E12E3626E7A7D8003FA213 /* ConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E3526E7A7D8003FA213 /* ConverterController.swift */; };
+		A7E12E3A26E7A818003FA213 /* ConverterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E3926E7A818003FA213 /* ConverterDataSource.swift */; };
+		A7E12E3C26E7A835003FA213 /* ConverterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E3B26E7A835003FA213 /* ConverterCell.swift */; };
+		A7E12E3E26E7A877003FA213 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E3D26E7A877003FA213 /* Utility.swift */; };
+		A7E12E4026E7AFA9003FA213 /* ConverterInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E3F26E7AFA9003FA213 /* ConverterInstance.swift */; };
+		A7E12E4226E7C75D003FA213 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E4126E7C75D003FA213 /* UITextFieldExtension.swift */; };
 		A7F0B01726E7A12200F3D262 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B01626E7A12200F3D262 /* AppDelegate.swift */; };
 		A7F0B01926E7A12200F3D262 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B01826E7A12200F3D262 /* ViewController.swift */; };
 		A7F0B01C26E7A12200F3D262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F0B01A26E7A12200F3D262 /* Main.storyboard */; };
@@ -34,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7E12E2926E7A6E0003FA213 /* ConverterKilowatts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterKilowatts.swift; sourceTree = "<group>"; };
+		A7E12E2A26E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterMechanicalHorsepower.swift; sourceTree = "<group>"; };
+		A7E12E2B26E7A6E0003FA213 /* ConverterWatts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterWatts.swift; sourceTree = "<group>"; };
+		A7E12E2C26E7A6E0003FA213 /* ConverterElectricalHorsepower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterElectricalHorsepower.swift; sourceTree = "<group>"; };
+		A7E12E2D26E7A6E0003FA213 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		A7E12E2E26E7A6E0003FA213 /* ConverterMetricHorsepower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterMetricHorsepower.swift; sourceTree = "<group>"; };
+		A7E12E3526E7A7D8003FA213 /* ConverterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterController.swift; sourceTree = "<group>"; };
+		A7E12E3926E7A818003FA213 /* ConverterDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterDataSource.swift; sourceTree = "<group>"; };
+		A7E12E3B26E7A835003FA213 /* ConverterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterCell.swift; sourceTree = "<group>"; };
+		A7E12E3D26E7A877003FA213 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		A7E12E3F26E7AFA9003FA213 /* ConverterInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterInstance.swift; sourceTree = "<group>"; };
+		A7E12E4126E7C75D003FA213 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		A7F0B01326E7A12200F3D262 /* inft3033.assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inft3033.assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F0B01626E7A12200F3D262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F0B01826E7A12200F3D262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +98,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7E12E2726E7A69F003FA213 /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				A7E12E2D26E7A6E0003FA213 /* Converter.swift */,
+				A7E12E2C26E7A6E0003FA213 /* ConverterElectricalHorsepower.swift */,
+				A7E12E2926E7A6E0003FA213 /* ConverterKilowatts.swift */,
+				A7E12E2A26E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift */,
+				A7E12E2E26E7A6E0003FA213 /* ConverterMetricHorsepower.swift */,
+				A7E12E2B26E7A6E0003FA213 /* ConverterWatts.swift */,
+			);
+			path = Converters;
+			sourceTree = "<group>";
+		};
+		A7E12E2826E7A6A7003FA213 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A7E12E3526E7A7D8003FA213 /* ConverterController.swift */,
+				A7E12E3926E7A818003FA213 /* ConverterDataSource.swift */,
+				A7E12E3B26E7A835003FA213 /* ConverterCell.swift */,
+				A7E12E3F26E7AFA9003FA213 /* ConverterInstance.swift */,
+				A7E12E4126E7C75D003FA213 /* UITextFieldExtension.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 		A7F0B00A26E7A12200F3D262 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +146,15 @@
 		A7F0B01526E7A12200F3D262 /* inft3033.assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				A7E12E2726E7A69F003FA213 /* Converters */,
+				A7E12E2826E7A6A7003FA213 /* Interface */,
+				A7F0B01D26E7A12200F3D262 /* Assets.xcassets */,
 				A7F0B01626E7A12200F3D262 /* AppDelegate.swift */,
 				A7F0B01826E7A12200F3D262 /* ViewController.swift */,
 				A7F0B01A26E7A12200F3D262 /* Main.storyboard */,
-				A7F0B01D26E7A12200F3D262 /* Assets.xcassets */,
 				A7F0B01F26E7A12200F3D262 /* LaunchScreen.storyboard */,
 				A7F0B02226E7A12200F3D262 /* Info.plist */,
+				A7E12E3D26E7A877003FA213 /* Utility.swift */,
 			);
 			path = inft3033.assignment1;
 			sourceTree = "<group>";
@@ -259,6 +311,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E12E2F26E7A6E0003FA213 /* ConverterKilowatts.swift in Sources */,
+				A7E12E3026E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift in Sources */,
+				A7E12E3226E7A6E0003FA213 /* ConverterElectricalHorsepower.swift in Sources */,
+				A7E12E3326E7A6E0003FA213 /* Converter.swift in Sources */,
+				A7E12E3426E7A6E0003FA213 /* ConverterMetricHorsepower.swift in Sources */,
+				A7E12E3A26E7A818003FA213 /* ConverterDataSource.swift in Sources */,
+				A7E12E3C26E7A835003FA213 /* ConverterCell.swift in Sources */,
+				A7E12E4026E7AFA9003FA213 /* ConverterInstance.swift in Sources */,
+				A7E12E3E26E7A877003FA213 /* Utility.swift in Sources */,
+				A7E12E4226E7C75D003FA213 /* UITextFieldExtension.swift in Sources */,
+				A7E12E3626E7A7D8003FA213 /* ConverterController.swift in Sources */,
+				A7E12E3126E7A6E0003FA213 /* ConverterWatts.swift in Sources */,
 				A7F0B01926E7A12200F3D262 /* ViewController.swift in Sources */,
 				A7F0B01726E7A12200F3D262 /* AppDelegate.swift in Sources */,
 			);

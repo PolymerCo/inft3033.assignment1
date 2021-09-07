@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inft3033.assignment1/Interface/ConverterCell.swift"
+            timestampString = "652727038.361463"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "cellValueChanged(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "inft3033_assignment1.ConverterCell.cellValueChanged(__ObjC.UITextField) -&gt; ()"
+                  moduleName = "inft3033.assignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oliver/OneDrive/OneDrive%20-%20University%20of%20South%20Australia/Uni%20SA/2021%20S2/INFT%203033%20IOS%20Enterprise%20Development/Assignment%201/inft3033.assignment1/inft3033.assignment1/Interface/ConverterCell.swift"
+                  timestampString = "652722340.950209"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 : @autoclosure () throws -&gt; Swift.String in inft3033_assignment1.ConverterCell.cellValueChanged(__ObjC.UITextField) -&gt; ()"
+                  moduleName = "inft3033.assignment1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/oliver/OneDrive/OneDrive%20-%20University%20of%20South%20Australia/Uni%20SA/2021%20S2/INFT%203033%20IOS%20Enterprise%20Development/Assignment%201/inft3033.assignment1/inft3033.assignment1/Interface/ConverterCell.swift"
+                  timestampString = "652722340.953689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "inft3033.assignment1/Interface/ConverterDataSource.swift"
+            timestampString = "652727038.361571"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

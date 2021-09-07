@@ -1,24 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yCe-GA-tfb">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Menlo.ttc">
+            <string>Menlo-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="kUn-1d-L61">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="yCe-GA-tfb" customClass="ViewController" customModule="inft3033_assignment1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x9m-nc-bvy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="siN-Ch-ysg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <connections>
+                                    <segue destination="hn2-Is-lJv" kind="embed" id="CNg-U7-7OQ"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="l9c-lI-Xo2" firstAttribute="trailing" secondItem="siN-Ch-ysg" secondAttribute="trailing" id="CEO-6L-l3y"/>
+                            <constraint firstItem="siN-Ch-ysg" firstAttribute="top" secondItem="l9c-lI-Xo2" secondAttribute="top" id="XK6-CR-64f"/>
+                            <constraint firstItem="l9c-lI-Xo2" firstAttribute="bottom" secondItem="siN-Ch-ysg" secondAttribute="bottom" id="bEr-wb-oIz"/>
+                            <constraint firstItem="siN-Ch-ysg" firstAttribute="leading" secondItem="l9c-lI-Xo2" secondAttribute="leading" id="wyG-1L-8zg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="l9c-lI-Xo2"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jc4-xE-12H" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-423" y="126"/>
+        </scene>
+        <!--Controller-->
+        <scene sceneID="YXP-fe-qjD">
+            <objects>
+                <tableViewController id="hn2-Is-lJv" customClass="ConverterController" customModule="inft3033_assignment1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="s7V-kg-Aqz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="converterCell" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="converterCell" id="6AK-XP-KHa" customClass="ConverterCell" customModule="inft3033_assignment1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6AK-XP-KHa" id="ixp-bc-rbk">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TKB-kj-TML">
+                                            <rect key="frame" x="16" y="16" width="343" height="11.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qf-Az-c23" userLabel="Unit Label">
+                                                    <rect key="frame" x="0.0" y="0.0" width="171.5" height="11.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0.00" textAlignment="right" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="f82-Ng-JYr" userLabel="Value Field">
+                                                    <rect key="frame" x="171.5" y="0.0" width="171.5" height="11.5"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                                    <connections>
+                                                        <action selector="cellFieldSelected:" destination="6AK-XP-KHa" eventType="editingDidBegin" id="HKc-bv-JpJ"/>
+                                                        <action selector="cellValueChanged:" destination="6AK-XP-KHa" eventType="editingDidEnd" id="Yjq-kf-y29"/>
+                                                    </connections>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="TKB-kj-TML" secondAttribute="bottom" constant="16" id="2mM-xW-OQ9"/>
+                                        <constraint firstItem="TKB-kj-TML" firstAttribute="leading" secondItem="ixp-bc-rbk" secondAttribute="leading" constant="16" id="8bH-tx-GSo"/>
+                                        <constraint firstItem="TKB-kj-TML" firstAttribute="top" secondItem="ixp-bc-rbk" secondAttribute="top" constant="16" id="Fne-ag-44a"/>
+                                        <constraint firstAttribute="trailing" secondItem="TKB-kj-TML" secondAttribute="trailing" constant="16" id="Yjx-CS-oUc"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="controller" destination="hn2-Is-lJv" id="F11-10-04J"/>
+                                    <outlet property="field" destination="f82-Ng-JYr" id="Qda-wm-wgZ"/>
+                                    <outlet property="label" destination="4Qf-Az-c23" id="8ls-Wf-LY7"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hn2-Is-lJv" id="KjO-fZ-VkB"/>
+                            <outlet property="delegate" destination="hn2-Is-lJv" id="tXf-rJ-UXG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3m8-ks-WIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="125"/>
         </scene>
     </scenes>
 </document>
