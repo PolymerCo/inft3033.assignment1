@@ -32,12 +32,10 @@ class Utility {
         // if large value, convert to scientific
         if value < 999_999_999 || !withScientific {
             fmt.maximumSignificantDigits = 9
-            // return String(format: "%.9g", value)
         } else {
             fmt.numberStyle = .scientific
             fmt.positiveFormat = "0.#########E+0"
             fmt.exponentSymbol = "e"
-            // return String(format: "%.9e", value)
         }
         
         return fmt.string(from: NSNumber(value: value)) ?? ""
