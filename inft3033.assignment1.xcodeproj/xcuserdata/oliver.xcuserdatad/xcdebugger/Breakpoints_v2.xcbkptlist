@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "inft3033.assignment1/Interface/ConverterCell.swift"
-            timestampString = "652727038.361463"
+            timestampString = "652800827.757585"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "cellValueChanged(_:)"
-            landmarkType = "7">
+            landmarkName = "ConverterCell"
+            landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "No"

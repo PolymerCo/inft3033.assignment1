@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A78A2A9626E8EF720006CE8A /* ConverterBoilerHorsepower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78A2A9526E8EF710006CE8A /* ConverterBoilerHorsepower.swift */; };
 		A7E12E2F26E7A6E0003FA213 /* ConverterKilowatts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2926E7A6E0003FA213 /* ConverterKilowatts.swift */; };
 		A7E12E3026E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2A26E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift */; };
 		A7E12E3126E7A6E0003FA213 /* ConverterWatts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E12E2B26E7A6E0003FA213 /* ConverterWatts.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A78A2A9526E8EF710006CE8A /* ConverterBoilerHorsepower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterBoilerHorsepower.swift; sourceTree = "<group>"; };
 		A7E12E2926E7A6E0003FA213 /* ConverterKilowatts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterKilowatts.swift; sourceTree = "<group>"; };
 		A7E12E2A26E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterMechanicalHorsepower.swift; sourceTree = "<group>"; };
 		A7E12E2B26E7A6E0003FA213 /* ConverterWatts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConverterWatts.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				A7E12E2D26E7A6E0003FA213 /* Converter.swift */,
+				A78A2A9526E8EF710006CE8A /* ConverterBoilerHorsepower.swift */,
 				A7E12E2C26E7A6E0003FA213 /* ConverterElectricalHorsepower.swift */,
 				A7E12E2926E7A6E0003FA213 /* ConverterKilowatts.swift */,
 				A7E12E2A26E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift */,
@@ -313,6 +316,7 @@
 			files = (
 				A7E12E2F26E7A6E0003FA213 /* ConverterKilowatts.swift in Sources */,
 				A7E12E3026E7A6E0003FA213 /* ConverterMechanicalHorsepower.swift in Sources */,
+				A78A2A9626E8EF720006CE8A /* ConverterBoilerHorsepower.swift in Sources */,
 				A7E12E3226E7A6E0003FA213 /* ConverterElectricalHorsepower.swift in Sources */,
 				A7E12E3326E7A6E0003FA213 /* Converter.swift in Sources */,
 				A7E12E3426E7A6E0003FA213 /* ConverterMetricHorsepower.swift in Sources */,
