@@ -29,7 +29,7 @@ class Utility {
         
         fmt.minimumFractionDigits = 2
         
-        // if large value, convert to scientific
+        // if large value, convert to scientific. if we can get auto text scale down working, we can increase this number
         if value < 999_999_999 || !withScientific {
             fmt.maximumSignificantDigits = 9
         } else {
