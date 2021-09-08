@@ -11,7 +11,7 @@ import UIKit
 class ConverterDataSource: NSObject, UITableViewDataSource {
     
     /**
-     Global conversion value that will be used to set the cell values
+     Global conversion value that will be used to set the cell values.
      */
     static var GlobalValue: Double = 0
     
@@ -23,6 +23,7 @@ class ConverterDataSource: NSObject, UITableViewDataSource {
         ConverterInstance(converter: ConverterWatts()),
         ConverterInstance(converter: ConverterMetricHorsepower()),
         ConverterInstance(converter: ConverterElectricalHorsepower()),
+        ConverterInstance(converter: ConverterBoilerHorsepower()),
         ConverterInstance(converter: ConverterMechanicalHorsepower())
     ]
     
@@ -52,8 +53,8 @@ class ConverterDataSource: NSObject, UITableViewDataSource {
         
         // Set the converter value, then pass description and converted values onto the cell, if it wasn't recently edited
         instance.value = ConverterDataSource.GlobalValue
+
         cell.field?.text = "\(Utility.valueStringOf(number: instance.converted))"
-        
         cell.label?.text = instance.converter.description
         
         return cell
