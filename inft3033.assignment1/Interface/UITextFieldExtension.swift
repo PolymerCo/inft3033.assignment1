@@ -12,9 +12,14 @@ import UIKit
  Extensions for the UI text field in order to add 'Done' button on decimal input
  */
 extension UITextField {
-    func addDoneCancelToolbar(onDone: (target: Any, action: Selector)? = nil) {
+    /**
+     Adds a toolbar that displays the word 'done'. Will call the action callback when clicked.
+    */
+    func addDoneToolbar(onDone: (target: Any, action: Selector)? = nil) {
+        // Set default action if no onDone set
         let onDone = onDone ?? (target: self, action: #selector(doneButtonTapped))
         
+        // Create toolbar and define layout
         let toolbar: UIToolbar = UIToolbar()
         toolbar.barStyle = .default
         toolbar.items = [
@@ -26,5 +31,6 @@ extension UITextField {
         self.inputAccessoryView = toolbar
     }
     
+    // Default action. Will blur the text field.
     @objc func doneButtonTapped() { self.resignFirstResponder() }
 }
