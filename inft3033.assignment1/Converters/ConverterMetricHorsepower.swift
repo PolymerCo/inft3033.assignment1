@@ -19,7 +19,7 @@ class ConverterMetricHorsepower : Converter {
      - Returns: The value in Metric Horsepower
      */
     func fromWatts(value: Double) -> Double {
-        return value / 735.49875
+        return value / 735.499624895
     }
     
     /**
@@ -29,6 +29,6 @@ class ConverterMetricHorsepower : Converter {
      - Returns: The value in Watts
      */
     func toWatts(value: Double) -> Double {
-        return value * 735.49875
+        return value * 735.499624895
     }
 }

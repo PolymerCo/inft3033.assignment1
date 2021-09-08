@@ -19,7 +19,7 @@ class ConverterElectricalHorsepower : Converter {
      - Returns: The value in Electrical Horsepower
      */
     func fromWatts(value: Double) -> Double {
-        return value / 746.0
+        return value / 746.001432323
     }
     
     /**
@@ -29,6 +29,6 @@ class ConverterElectricalHorsepower : Converter {
      - Returns: The value in Watts
      */
     func toWatts(value: Double) -> Double {
-        return value * 746.0
+        return value * 746.001432323
     }
 }
