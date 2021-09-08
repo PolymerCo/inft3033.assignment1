@@ -9,10 +9,22 @@
 import UIKit
 
 class ConverterCell: UITableViewCell {
+
+    /**
+     Table controller that this container cell is contained within.
+    */
     @IBOutlet var controller: ConverterController?
+
+    /**
+     The label that is displayed within the cell to represent the unit description.
+    */
     @IBOutlet var label: UILabel?
+
+    /**
+     The text field that is used to display and recieve the unit value.
+    */
     @IBOutlet weak var field: UITextField? {
-        didSet { field?.addDoneCancelToolbar() }
+        didSet { field?.addDoneToolbar() }
     }
     
     /**
