@@ -27,7 +27,7 @@ class ConverterController: UITableViewController {
     }
     
     /**
-     Call this when a value within a cell has changed
+     Performs the actions nessecary when a cell has changed.
     */
     func cellChanged() {
         self.tableView.reloadData()
