@@ -37,8 +37,8 @@ class ConverterCell: UITableViewCell {
     */
     @IBAction func cellFieldSelected(_ sender: UITextField) {
         // convert cell value into non-exponent format
-        if let newValue = Double(self.field?.text ?? "0.00") {
-            self.field?.text = Utility.valueStringOf(number: newValue, withScientific: false)
+        if let newValue = Utility.valueOfString(self.field?.text ?? "0.00") {
+            self.field?.text = Utility.stringOfValue(number: newValue, withScientific: false)
         }
     }
     
@@ -47,7 +47,7 @@ class ConverterCell: UITableViewCell {
     */
     @IBAction func cellValueChanged(_ sender: UITextField) {
         // try to convert to a number, if failed, reload data without setting value
-        if let newValue = Double(sender.text ?? "0.00") {
+        if let newValue = Utility.valueOfString(sender.text ?? "0.00") {
             // convert to watts then set value
             ConverterDataSource.GlobalValue = instance?.converter.toWatts(value: newValue) ?? 0
         }

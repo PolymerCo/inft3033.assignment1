@@ -48,13 +48,13 @@ class ConverterDataSource: NSObject, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "converterCell", for: indexPath) as! ConverterCell
         
         // extract instances
-        let instance: ConverterInstance = converters[indexPath.row]
+        let instance = converters[indexPath.row]
         cell.instance = instance
         
         // Set the converter value, then pass description and converted values onto the cell, if it wasn't recently edited
         instance.value = ConverterDataSource.GlobalValue
 
-        cell.field?.text = "\(Utility.valueStringOf(number: instance.converted))"
+        cell.field?.text = "\(Utility.stringOfValue(number: instance.converted))"
         cell.label?.text = instance.converter.description
         
         return cell

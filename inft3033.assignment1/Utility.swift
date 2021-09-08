@@ -14,10 +14,14 @@ import Foundation
 class Utility {
     /**
      Converts a value into a string that it suited for the input components on the table.
-     */
-    public static func valueStringOf(number value: Double, withScientific: Bool = true) -> String {
+    */
+    public static func stringOfValue(number value: Double, withScientific: Bool = true) -> String {
         // check if = 0
-        if (abs(value) < Double.ulpOfOne) {
+        if abs(value) < Double.ulpOfOne {
+            return ""
+        }
+
+        if abs(value) > Double.greatestFiniteMagnitude {
             return ""
         }
         
@@ -37,5 +41,18 @@ class Utility {
         }
         
         return fmt.string(from: NSNumber(value: value)) ?? ""
+    }
+
+    /**
+     Converts a text value into a double.
+    */
+    public static func valueOfString(text value: String) -> Double {
+        if let newValue = Double(value) {
+            if newValue > Double.greatestFiniteMagnitude {
+                return 0
+            }
+
+            return newValue
+        }
     }
 }

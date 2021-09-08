@@ -20,7 +20,7 @@ extension UITextField {
         let onDone = onDone ?? (target: self, action: #selector(doneButtonTapped))
         
         // Create toolbar and define layout
-        let toolbar: UIToolbar = UIToolbar()
+        let toolbar = UIToolbar()
         toolbar.barStyle = .default
         toolbar.items = [
             UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil),
