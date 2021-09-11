@@ -20,4 +20,9 @@ This application was developed using:
  Xcode 9.2 (9C40b)
  macOS High Sierra (10.13.6)
 
+=========================
+
+A repo can be found at:
+
+https://github.com/PolymerDesign/inft3033.assignment1
 
