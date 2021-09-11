@@ -51,7 +51,7 @@ class ConverterDataSource: NSObject, UITableViewDataSource {
         let instance = converters[indexPath.row]
         cell.instance = instance
         
-        // Set the converter value, then pass description and converted values onto the cell, if it wasn't recently edited
+        // Set the converter value, then pass description and converted values onto the cell
         instance.value = ConverterDataSource.GlobalValue
 
         cell.field?.text = "\(Utility.stringOfValue(number: instance.converted))"

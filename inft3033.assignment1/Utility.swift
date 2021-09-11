@@ -14,6 +14,10 @@ import Foundation
 class Utility {
     /**
      Converts a value into a string that it suited for the input components on the table.
+     
+     - Parameter value: Value to convert into a string.
+     - Parameter withScientific: If to allow for conversion to scientific notation with really large values. Default true.
+     - Return: String representation of value.
     */
     public static func stringOfValue(number value: Double, withScientific: Bool = true) -> String {
         // check if = 0
@@ -42,8 +46,11 @@ class Utility {
     }
 
     /**
-     Converts a text value into a double.
-    */
+     Converts a string into a double value.
+     
+     - Parameter value: Value to convert into a double.
+     - Return: Double representation of value.
+     */
     public static func valueOfString(text value: String) -> Double {
         if let newValue = Double(value) {
             if newValue > Double.greatestFiniteMagnitude {

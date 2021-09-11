@@ -23,7 +23,7 @@ class ConverterBoilerHorsepower : Converter {
     }
     
     /**
-     Converts a value in BOiler Horsepower into Watts.
+     Converts a value in Boiler Horsepower into Watts.
      
      - Parameter value: Value in Boiler Horsepower
      - Returns: The value in Watts
