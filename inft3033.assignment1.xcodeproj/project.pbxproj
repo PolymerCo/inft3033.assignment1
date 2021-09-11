@@ -25,8 +25,6 @@
 		A7F0B01C26E7A12200F3D262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F0B01A26E7A12200F3D262 /* Main.storyboard */; };
 		A7F0B01E26E7A12200F3D262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F0B01D26E7A12200F3D262 /* Assets.xcassets */; };
 		A7F0B02126E7A12200F3D262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F0B01F26E7A12200F3D262 /* LaunchScreen.storyboard */; };
-		A7F0B02C26E7A12200F3D262 /* inft3033_assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B02B26E7A12200F3D262 /* inft3033_assignment1Tests.swift */; };
-		A7F0B03726E7A12200F3D262 /* inft3033_assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F0B03626E7A12200F3D262 /* inft3033_assignment1UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,11 +66,7 @@
 		A7F0B02026E7A12200F3D262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7F0B02226E7A12200F3D262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F0B02726E7A12200F3D262 /* inft3033.assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inft3033.assignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F0B02B26E7A12200F3D262 /* inft3033_assignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inft3033_assignment1Tests.swift; sourceTree = "<group>"; };
-		A7F0B02D26E7A12200F3D262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F0B03226E7A12200F3D262 /* inft3033.assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inft3033.assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7F0B03626E7A12200F3D262 /* inft3033_assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inft3033_assignment1UITests.swift; sourceTree = "<group>"; };
-		A7F0B03826E7A12200F3D262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				A7F0B01526E7A12200F3D262 /* inft3033.assignment1 */,
-				A7F0B02A26E7A12200F3D262 /* inft3033.assignment1Tests */,
-				A7F0B03526E7A12200F3D262 /* inft3033.assignment1UITests */,
 				A7F0B01426E7A12200F3D262 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -160,24 +152,6 @@
 				A7E12E3D26E7A877003FA213 /* Utility.swift */,
 			);
 			path = inft3033.assignment1;
-			sourceTree = "<group>";
-		};
-		A7F0B02A26E7A12200F3D262 /* inft3033.assignment1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				A7F0B02B26E7A12200F3D262 /* inft3033_assignment1Tests.swift */,
-				A7F0B02D26E7A12200F3D262 /* Info.plist */,
-			);
-			path = inft3033.assignment1Tests;
-			sourceTree = "<group>";
-		};
-		A7F0B03526E7A12200F3D262 /* inft3033.assignment1UITests */ = {
-			isa = PBXGroup;
-			children = (
-				A7F0B03626E7A12200F3D262 /* inft3033_assignment1UITests.swift */,
-				A7F0B03826E7A12200F3D262 /* Info.plist */,
-			);
-			path = inft3033.assignment1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F0B02C26E7A12200F3D262 /* inft3033_assignment1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F0B03726E7A12200F3D262 /* inft3033_assignment1UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
